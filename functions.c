@@ -22,7 +22,6 @@ char* first(char* str)
       if (str[i] == ' ')
          l = i;
    }
-
    for (int i = l + 1; i < strlen(str); i++) {
       temp[d] = str[i];
       d++;
@@ -81,7 +80,7 @@ void Third()
    {
       if (sym == ' ')
          ++t;
-      if (sym == 'Ï' || sym == 'ï' || t % 4 == 0)
+      if (sym == 'Ã' || sym == 'Ã¯' || t % 4 == 0)
       {
          while (sym != ' ')
             fscanf_s(F, "%c", &sym,4);
